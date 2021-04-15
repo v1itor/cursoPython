@@ -1,0 +1,2 @@
+n = input('digite algo: ')
+print('\nThis is alphanumeric? {}\nThis is alpha? {}\nThis is numeric? {}\nThis is upper? {}\nThe type of this is: {}' .format(n.isalnum(), n.isalpha(), n.isnumeric(), n.isupper(), type(n)))
